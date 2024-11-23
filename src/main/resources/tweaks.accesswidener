@@ -1,0 +1,4 @@
+accessWidener v1 named
+
+accessible field net/minecraft/src/EntityPlayerMP initialInvulnerability I
+accessible class net/minecraft/src/EntityWitherAttackFilter

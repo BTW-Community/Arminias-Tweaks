@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "tweaks",
+  "version": "${version}",
+  "name": "Arminias' Tweaks",
+  "description": "A collection of tweaks for BTW CE!",
+  "authors": [
+    "Arminias"
+  ],
+  "contact": {
+    "homepage": "https://legacyfabric.net/",
+    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+  },
+  "license": "CC BY-NC 4.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+
+    ],
+    "btw:addon": [
+      "btw.community.arminias.tweaks.TweaksAddon"
+    ]
+  },
+  "custom": {
+    "btw:addon_prefix": "AT"
+  },
+  "mixins": [
+    "tweaks.mixins.json"
+  ],
+  "accessWidener": "tweaks.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.6.4"
+  }
+}
